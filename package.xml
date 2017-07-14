@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>test_robot</name>
+  <version>2.5.13</version>
+  <description>
+    Provides ROS plugins that offer message and service publishers for interfacing with <a href="http://gazebosim.org">Gazebo</a> through ROS.
+    Formally simulator_gazebo/gazebo
+  </description>
+
+  <maintainer email="cuixiongyi2013@gmail.com">Xiongyi Cui</maintainer>
+
+  <license>Apache 2.0</license>
+
+  <url type="bugtracker">https://github.com/ros-simulation/gazebo_ros_pkgs/issues</url>
+  <url type="repository">https://github.com/cuixiongyi/differential_drive_robot</url>
+
+  <author>Xiongyi Cui</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>cmake_modules</build_depend>
+
+
+  <depend>gazebo_ros</depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+
+</package>
